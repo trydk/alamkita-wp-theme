@@ -3,14 +3,16 @@
 
 <div id="search_bar">
   <div class="container text-center pt-5 pb-5">
-    <form action="/" method="get">
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" name="s" id="search" value="<?php the_search_query(); ?>" />
-        <div class="input-group-append">
-          <input type="submit" class="btn btn-outline-secondary" value="Search" />
+    <div class="col-md-4 offset-md-4">
+      <form action="/" method="get">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" name="s" id="search" value="<?php the_search_query(); ?>" />
+          <div class="input-group-append">
+            <input type="submit" class="btn btn-secondary" value="Search" />
+          </div>
         </div>
-      </div>
       </form>
+    </div>
   </div>
 </div>
 
