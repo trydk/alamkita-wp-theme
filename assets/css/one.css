@@ -1,0 +1,34 @@
+@import "style.css";
+
+#header {
+    padding-top: 40px;
+}
+
+#header-main {
+    margin-top: 100px;
+    color: #fff;
+}
+
+#logo {
+    width: 240px;
+}
+
+#head-menu a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+#head-menu  a:hover {
+    color: #CCC;
+}
+#head-menu  a.active {
+    color: #00342F;
+}
+#head-title img:hover {
+    opacity: 0.6;
+}
+
+.page-default {
+    background-color: #8BC1A1;
+}

@@ -1,0 +1,47 @@
+@import "style.css";
+
+#header {
+    padding-top: 40px;
+}
+
+#header-main {
+    margin-top: 100px;
+    color: #fff;
+}
+
+#logo {
+    width: 240px;
+}
+
+#head-menu a {
+    color: #8EB6B2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+#head-menu  a:hover {
+    color: #CCC;
+}
+#head-menu  a.active {
+    color: #00342F;
+}
+#head-title img:hover {
+    opacity: 0.6;
+}
+
+.page-default {
+    background-color: #EFF8F3;
+}
+
+.documentations-menu a {
+    display: block;
+    margin: 20px 0;
+    color: #333;
+}
+.documentations-menu a:hover {
+    color: #00342F;
+}
+
+#calculator-wrapper .card {
+    border: 0 !important;
+}

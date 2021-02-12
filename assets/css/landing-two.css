@@ -1,0 +1,52 @@
+@import "landing.css";
+
+#landing-front {
+    background-image: none;
+    min-height: 450px;
+}
+
+#head-info {
+    padding-bottom: 0;
+}
+
+#landing-image-5 {
+    margin-top: 0;
+}
+
+.page-default {
+    background-color: #EFF8F3;
+}
+
+.projects-page a {
+    color: #8EB6B2;
+}
+
+.projects-page a {
+    color: #8EB6B2;
+}
+.projects-page a:hover {
+    color: #999;
+}
+.projects-page .card-title {
+    color: #8EB6B2;
+    font-size: 14px;
+}
+.projects-page .card h3 {
+    color: #999;
+    font-size: 14px;
+    line-height: 28px;
+}
+.projects-page .card {
+    font-size: 13px;
+    line-height: 22px;
+    border: 0 !important;
+}
+.projects-page .card a {
+    color: #999;
+}
+.project-date {
+    color: #8EB6B2;
+    text-align: right;
+    margin-top: 20px;
+    font-size: 14px;
+}

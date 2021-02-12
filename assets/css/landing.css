@@ -1,0 +1,166 @@
+@import "style.css";
+@import "one.css";
+
+#landing-front {
+    background-color: #8BC1A1;
+    background-image: url('../img/landing-bg.svg');
+    width: 100%;
+    min-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+    #landing-front {
+      background-image: none;
+      min-height: auto;
+    }
+}
+
+/* #header {
+    display: block;
+}
+#header-mobile {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    #header-mobile {
+        visibility: visible;
+    }
+    #header {
+        display: none;
+    }
+} */
+
+#head-title {
+    font-size: 56px;
+    font-weight: 500;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+#head-info {
+    font-size: 18px;
+    line-height: 34px;
+    padding-bottom: 40px;
+}
+#head-button {
+    border-radius: 16px;
+    color: #8BC1A1;
+    font-weight: bold;
+}
+#head-title img:hover {
+    opacity: 0.6;
+}
+
+.landing-box {
+    /* padding: 80px 0 100px 0; */
+    padding-top: 80px;
+    text-align: center;
+}
+.landing-info {
+    padding: 16px 0 30px 0;
+    font-size: 18px;
+    line-height: 32px;
+}
+.landing-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+.landing-box button {
+    border-radius: 16px;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+.landing-icon-info {
+    font-size: 14px;
+}
+
+#landing-map {
+    margin-top: 40px;
+}
+#landing-box-2 {
+    background: #00342F;
+    color: #FFF;
+    text-align: left;
+}
+#landing-box-3 h4 {
+    margin-bottom: 14px;
+}
+#landing-box-3 .landing-icon img {
+    /* padding: 16px 100px; */
+    width: 30%;
+    margin-bottom: 20px;
+}
+#landing-box-4, #landing-box-5 {
+    background: #EAF2ED;
+}
+#landing-box-4 .landing-icon {
+    margin-top: 30px;
+}
+#landing-box-4 .landing-icon img {
+    height: 100px;
+}
+#landing-box-4 .landing-card {
+    background: #FFF;
+    padding: 40px 30px;
+    text-align: left;
+    margin: 14px;
+}
+
+#landing-box-5 {
+    padding-bottom: 0;
+}
+#landing-image-5 {
+    width: 100%;
+    margin-top: 60px;
+}
+#landing-box-6 {
+    text-align: left;
+}
+#landing-box-6 .landing-subtitle {
+    color: #8BC1A0;
+    padding: 10px;
+}
+#landing-box-6 .landing-title,
+#landing-box-6 .landing-info {
+    padding: 10px;
+    margin: 10px 0;
+}
+#landing-box-7 .landing-wrapper {
+    background: #00342F;
+    color: #FFF;
+    padding: 20px;
+    text-align: left;
+    border-radius: 16px;
+}
+#landing-box-7 .landing-title,
+#landing-box-7 .landing-info {
+    padding: 0px;
+    margin: 10px 0;
+}
+#landing-box-7 button {
+    margin: 0;
+}
+#landing-box-7 select {
+    margin-bottom: 10px;
+}
+
+#footer {
+    background: #00342F;
+    color: #FFF;
+    text-align: left;
+    font-size: 13px;
+    line-height: 24px;
+}
+.footer-link {
+    list-style-type: none;
+}
+#footer a {
+    color: #FFF;
+}
+#footer a:hover {
+    color: #999;
+}
+#footer-icon a:hover {
+    opacity: 0.5;
+}
